@@ -50,10 +50,8 @@
                     <StackPanel Grid.Column="1">
                         <components:FormFieldLabel Text="{loc:T app_info.tl_team}" Margin="0,0,0,2"/>
                         <SelectableTextBlock Classes="TinyText" Text="{loc:T app_info.tl_managed_by}"/>
-                        <SelectableTextBlock Classes="TinyText" Text="{loc:T app_info.tl_description_1}"/>
-                        <SelectableTextBlock Classes="TinyText" Text="{loc:T app_info.tl_description_2}"/>
-                        <SelectableTextBlock Classes="TinyText" Text="{loc:T app_info.tl_help_translate_1}"/>
-                        <SelectableTextBlock Classes="TinyText" Text="{loc:T app_info.tl_help_translate_2}"/>
+                        <SelectableTextBlock Classes="TinyText" Text="{loc:T app_info.tl_description}" TextWrapping="Wrap"/>
+                        <SelectableTextBlock Classes="TinyText" Text="{loc:T app_info.tl_help_translate}" TextWrapping="Wrap"/>
                     </StackPanel>
                     
                 </Grid>

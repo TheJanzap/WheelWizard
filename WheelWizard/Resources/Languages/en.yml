@@ -650,10 +650,8 @@ en:
     rr_thank_contributors: "Thanks to ZPL and all other contributors for creating Retro Rewind."
     tl_team: "Translator Team"
     tl_managed_by: "The entire Translation is being managed by Eppe."
-    tl_description_1: "You can use Wheel Wizard and Retro Rewind in multiple languages" 
-    tl_description_2: "thanks to her and the entire translator team."
-    tl_help_translate_1: "If you are willing to translate for Retro Rewind and Wheel Wizard, "
-    tl_help_translate_2: "be sure to reach out to Eppe or WantToBeeMe :)"
+    tl_description: "You can use Wheel Wizard and Retro Rewind in multiple languages thanks to her and the entire translator team."
+    tl_help_translate: "If you are willing to translate for Retro Rewind and Wheel Wizard, be sure to reach out to Eppe or WantToBeeMe :)"
   value:
     language:
       france: "French"
