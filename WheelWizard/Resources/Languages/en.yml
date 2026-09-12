@@ -640,6 +640,20 @@ en:
       default: "Using default location."
       custom: "Using custom location."
       moving: "Moving data, please wait..."
+  app_info:
+    wh_wz_team: "Team Wheel Wizard"
+    wh_wz_created_by: "This application is created by Patchzy and WantToBeeMe."
+    wh_wz_thank_contributors: "Thanks to the contributors, we managed to make it even better:"
+    wh_wz_contributors: "Ruben, Lasagna, Matellush"
+    rr_team: "Team Retro Rewind"
+    rr_description: "Wheel Wizard was made to set up Retro Rewind quick and easy."
+    rr_thank_contributors: "Thanks to ZPL and all other contributors for creating Retro Rewind."
+    tl_team: "Translator Team"
+    tl_managed_by: "The entire Translation is being managed by Eppe."
+    tl_description_1: "You can use Wheel Wizard and Retro Rewind in multiple languages" 
+    tl_description_2: "thanks to her and the entire translator team."
+    tl_help_translate_1: "If you are willing to translate for Retro Rewind and Wheel Wizard, "
+    tl_help_translate_2: "be sure to reach out to Eppe or WantToBeeMe :)"
   value:
     language:
       france: "French"

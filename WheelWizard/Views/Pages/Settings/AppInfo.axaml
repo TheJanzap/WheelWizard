@@ -3,6 +3,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="444" d:DesignHeight="716"
+             xmlns:loc="clr-namespace:WheelWizard.Localization"
              xmlns:components="clr-namespace:WheelWizard.Views.Components"
              x:Class="WheelWizard.Views.Pages.Settings.AppInfo">
     <Grid>
@@ -16,10 +17,10 @@
                     <Border Grid.Column="0" Classes="AboutBlockLineStyle" HorizontalAlignment="Right"/>
                     
                     <StackPanel Grid.Column="1">
-                        <components:FormFieldLabel Text="Team Wheel Wizard" Margin="0,0,0,2"/>
-                        <SelectableTextBlock Classes="TinyText" Text="This application is created by Patchzy and WantToBeeMe." />
-                        <SelectableTextBlock Classes="TinyText" Text="Thanks to the contributors, we managed to make it even better:" />
-                        <SelectableTextBlock Classes="TinyText" Text="Ruben, Lasagna, Matellush" />
+                        <components:FormFieldLabel Text="{loc:T app_info.wh_wz_team}" Margin="0,0,0,2"/>
+                        <SelectableTextBlock Classes="TinyText" Text="{loc:T app_info.wh_wz_created_by}"/>
+                        <SelectableTextBlock Classes="TinyText" Text="{loc:T app_info.wh_wz_thank_contributors}"/>
+                        <SelectableTextBlock Classes="TinyText" Text="{loc:T app_info.wh_wz_contributors}"/>
                     </StackPanel>
                 </Grid>
             </Border>
@@ -32,9 +33,9 @@
                     <Border Grid.Column="0" Classes="AboutBlockLineStyle" HorizontalAlignment="Right"/>
                     
                     <StackPanel Grid.Column="1">
-                        <components:FormFieldLabel Text="Team Retro Rewind" Margin="0,0,0,2"/>
-                        <SelectableTextBlock Classes="TinyText" Text="Wheel Wizard was made to set up Retro Rewind quick and easy." />
-                        <SelectableTextBlock Classes="TinyText" Text="Thanks to ZPL and all other contributors for creating Retro Rewind." />
+                        <components:FormFieldLabel Text="{loc:T app_info.rr_team}" Margin="0,0,0,2"/>
+                        <SelectableTextBlock Classes="TinyText" Text="{loc:T app_info.rr_description}"/>
+                        <SelectableTextBlock Classes="TinyText" Text="{loc:T app_info.rr_thank_contributors}"/>
                     </StackPanel>
                 </Grid>
             </Border>
@@ -47,12 +48,12 @@
                     <Border Grid.Column="0" Classes="AboutBlockLineStyle" HorizontalAlignment="Right"/>
                     
                     <StackPanel Grid.Column="1">
-                        <components:FormFieldLabel Text="Translator Team" Margin="0,0,0,2"/>
-                        <SelectableTextBlock Classes="TinyText" Text="The entire Translation is being managed by Eppe." />
-                        <SelectableTextBlock Classes="TinyText" Text="You can use Wheel Wizard and Retro Rewind in multiple languages" />
-                        <SelectableTextBlock Classes="TinyText" Text="thanks to her and the entire translator team." />
-                        <SelectableTextBlock Classes="TinyText" Text="If you are willing to translate for Retro Rewind and Wheel Wizard, " />
-                        <SelectableTextBlock Classes="TinyText" Text="be sure to reach out to Eppe or WantToBeeMe :)" />
+                        <components:FormFieldLabel Text="{loc:T app_info.tl_team}" Margin="0,0,0,2"/>
+                        <SelectableTextBlock Classes="TinyText" Text="{loc:T app_info.tl_managed_by}"/>
+                        <SelectableTextBlock Classes="TinyText" Text="{loc:T app_info.tl_description_1}"/>
+                        <SelectableTextBlock Classes="TinyText" Text="{loc:T app_info.tl_description_2}"/>
+                        <SelectableTextBlock Classes="TinyText" Text="{loc:T app_info.tl_help_translate_1}"/>
+                        <SelectableTextBlock Classes="TinyText" Text="{loc:T app_info.tl_help_translate_2}"/>
                     </StackPanel>
                     
                 </Grid>
